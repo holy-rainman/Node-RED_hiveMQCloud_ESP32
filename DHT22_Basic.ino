@@ -31,7 +31,7 @@ bool initTemp()
     return false;
   } 
   else 
-    tempTicker.attach(1, triggerGetTemp);
+    tempTicker.attach(2, triggerGetTemp);
   return true;
 }
 void triggerGetTemp() {
